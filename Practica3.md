@@ -44,19 +44,36 @@ Las prácticas de este reporte cubren el uso de un display de 7 segmentos de cá
 
 ### P6 — Display 7 segmentos (Conteo 0–9)
 Se conectó un display de 7 segmentos de cátodo común al PORTD. El código tiene un arreglo con los valores hexadecimales correspondientes a cada dígito del 0 al 9 y los asigna en secuencia a PORTD con un retardo de ~500 ms entre cada uno.
+
 <img width="1031" height="627" alt="0-9" src="https://github.com/user-attachments/assets/208a5473-0065-406a-ac03-80e92b90eca1" />
 Figura 11. Simulación de Conteo 0-9
 
-<img width="778" height="463" alt="0-9" src="https://github.com/user-attachments/assets/c3657730-021c-4d39-b10a-f5dc705459ce" />
-Figura 12. Actividad de Conteo 0-9
+<img width="1031" height="627" alt="0-9" src="https://github.com/user-attachments/assets/c3657730-021c-4d39-b10a-f5dc705459ce" />
+Figura 12. Actividad de Conteo 0-9  
+
+
+
+
+<img width="1031" height="627" alt="0-9" src="https://github.com/user-attachments/assets/2672488e-cd4c-4ebe-99d1-17b85e1f7ae0" />
+Video 
+
+
+
+
 
 ### P7 — Display 7 segmentos (Conteo 0–F)
 Igual que P6 pero el arreglo se extiende hasta la F, cubriendo los 16 valores hexadecimales (0x00–0x0F). Permite observar la representación en 7 segmentos de todos los dígitos hexadecimales, incluyendo las letras A, B, C, D, E y F.
 <img width="1031" height="627" alt="0-F" src="https://github.com/user-attachments/assets/74401011-61a1-4961-a9ae-7457839dd014" />
 Figura 13. Simulación de Conteo 0-F
 
-<img width="887" height="470" alt="0-F" src="https://github.com/user-attachments/assets/432c48b0-fb0a-4e3b-bb03-b0943bfa3dc9" />
+<img width="1031" height="627" alt="0-F" src="https://github.com/user-attachments/assets/432c48b0-fb0a-4e3b-bb03-b0943bfa3dc9" />
 Figura 14. Actividad de Conteo 0-F
+
+<img width="1031" height="627" alt="display" src="https://github.com/user-attachments/assets/3196bdea-6fbb-4e7e-9e16-237cad29666e" />
+Video
+
+<img width="1031" height="627" alt="0-F" src="https://github.com/user-attachments/assets/b937c40c-41f8-4371-8487-c02c2c47bf8c" />
+Video
 
 ---
 
