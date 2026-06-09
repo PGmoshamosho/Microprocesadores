@@ -88,4 +88,22 @@ Figura 6. Actividad de Contador
 ## 5. Conclusiones
 
 Las tres prácticas con LEDs individuales permitieron comprender el manejo básico de los registros TRISD y PORTD, así como el uso de delays para generar efectos visuales. Las resistencias de 330 Ω resultaron adecuadas para los LEDs con VDD = 5 V, manteniéndose dentro de los límites de corriente del puerto.
+
+
+## Videos
+Parpadeo
+
+<img width="800" height="447" alt="LedsParp" src="https://github.com/user-attachments/assets/0a72c97a-d178-4e95-8748-4048eb9046ae" />
+
+Contador
+
+<img width="800" height="537" alt="Contador" src="https://github.com/user-attachments/assets/e1e062b8-cc1b-4c19-b897-86d038fce7b1" />
+
+
+Caminata
+
+<img width="800" height="560" alt="Caminata" src="https://github.com/user-attachments/assets/f7aa8f0d-ff60-418f-98e3-26409965901e" />
+
 ```
+
+
