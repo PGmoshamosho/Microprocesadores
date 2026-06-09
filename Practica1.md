@@ -71,7 +71,7 @@ Figura 4. Actividad de Caminata
 
 <img width="800" height="560" alt="Caminata" src="https://github.com/user-attachments/assets/f7aa8f0d-ff60-418f-98e3-26409965901e" />
 
-Video 3. Caminata 
+Video 2. Caminata 
 
 ### P3 — LEDs individuales (Conteo binario)
 Mismo circuito que P2. El código incrementa una variable de 0 a 63 (`0b000000` a `0b111111`) asignándola directamente a PORTD, representando cada número en binario sobre los 6 LEDs.
@@ -85,7 +85,7 @@ Figura 6. Actividad de Contador
 
 <img width="800" height="537" alt="Contador" src="https://github.com/user-attachments/assets/e1e062b8-cc1b-4c19-b897-86d038fce7b1" />
 
-Video 5. Contador
+Video 3. Contador
 
 ---
 
