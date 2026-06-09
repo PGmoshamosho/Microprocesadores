@@ -60,6 +60,7 @@ Figura 2. Actividad de Parpadeo
 Video 1. Parpadeo
 --------------------------------------------------------------------------------------------------------
 Codigo
+
 #include <xc.h>         // Biblioteca principal del compilador XC8
 
 //=============================================================================
@@ -93,7 +94,7 @@ void main(void) {
     }
 }
 
---------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
 
 ### P2 — LEDs individuales (Caminata)
 Se conectaron 6 LEDs al PORTD con resistencias de 330 Ω. El código ejecuta un bucle que enciende un LED a la vez de forma secuencial (`0b000001 → 0b000010 → 0b000100...` y regresa), creando el efecto de caminata con `delay_ms` entre cada estado.
@@ -107,6 +108,62 @@ Figura 4. Actividad de Caminata
 <img width="800" height="560" alt="Caminata" src="https://github.com/user-attachments/assets/f7aa8f0d-ff60-418f-98e3-26409965901e" />
 
 Video 2. Caminata 
+--------------------------------------------------------------------------------------------------------
+Codigo 
+
+#include <xc.h>
+
+#pragma config FOSC = XT
+#pragma config WDTE = OFF
+#pragma config PWRTE = OFF
+#pragma config BOREN = ON
+#pragma config LVP = OFF
+#pragma config CPD = OFF
+#pragma config WRT = OFF
+#pragma config CP = OFF
+
+#define _XTAL_FREQ 8000000
+
+void main(void) {
+
+    TRISD = 0B00000000;
+    PORTD = 0B00000000;
+
+    while (1) {
+
+        PORTD = 0B00000001;
+        __delay_ms(300);
+
+        PORTD = 0B00000010;
+        __delay_ms(300);
+
+        PORTD = 0B00000100;
+        __delay_ms(300);
+
+        PORTD = 0B00001000;
+        __delay_ms(300);
+
+        PORTD = 0B00010000;
+        __delay_ms(300);
+
+        PORTD = 0B00100000;
+        __delay_ms(300);
+
+        PORTD = 0B00010000;
+        __delay_ms(300);
+
+        PORTD = 0B00001000;
+        __delay_ms(300);
+
+        PORTD = 0B00000100;
+        __delay_ms(300);
+
+        PORTD = 0B00000010;
+        __delay_ms(300);
+    }
+}
+
+--------------------------------------------------------------------------------------------------------
 
 ### P3 — LEDs individuales (Conteo binario)
 Mismo circuito que P2. El código incrementa una variable de 0 a 63 (`0b000000` a `0b111111`) asignándola directamente a PORTD, representando cada número en binario sobre los 6 LEDs.
@@ -122,7 +179,39 @@ Figura 6. Actividad de Contador
 
 Video 3. Contador
 
----
+--------------------------------------------------------------------------------------------------------
+Codigo
+
+
+#include <xc.h>
+
+#pragma config FOSC = XT
+#pragma config WDTE = OFF
+#pragma config PWRTE = OFF
+#pragma config MCLRE = ON
+#pragma config CP = OFF
+#pragma config CPD = OFF
+#pragma config BOREN = ON
+#pragma config IESO = OFF
+#pragma config FCMEN = OFF
+#pragma config LVP = OFF
+
+#define _XTAL_FREQ 8000000
+
+void main(void) {
+    TRISD = 0x00;
+    PORTD = 0x00;
+    
+    unsigned char contador = 0;
+    
+    while(1) {
+        PORTD = contador;
+        __delay_ms(1000);
+        contador++;
+        if(contador > 15) contador = 0;
+    }
+}
+--------------------------------------------------------------------------------------------------------
 
 ## 4. Circuito Base
 
