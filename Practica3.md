@@ -55,7 +55,7 @@ Figura 12. Actividad de Conteo 0-9
 
 
 <img width="1031" height="627" alt="0-9" src="https://github.com/user-attachments/assets/2672488e-cd4c-4ebe-99d1-17b85e1f7ae0" />
-Video 
+Video 6 Simulacion conteo 0-9
 
 
 
@@ -70,10 +70,7 @@ Figura 13. Simulación de Conteo 0-F
 Figura 14. Actividad de Conteo 0-F
 
 <img width="1031" height="627" alt="display" src="https://github.com/user-attachments/assets/3196bdea-6fbb-4e7e-9e16-237cad29666e" />
-Video
-
-<img width="1031" height="627" alt="0-F" src="https://github.com/user-attachments/assets/b937c40c-41f8-4371-8487-c02c2c47bf8c" />
-Video
+Video 7 Simulacion de conteo 0-F
 
 ---
 
