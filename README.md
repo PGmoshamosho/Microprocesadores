@@ -3,7 +3,7 @@
 # Reporte 1 — LEDs Individuales (P1, P2, P3)
 
 **Materia:** Microprocesadores | **Microcontrolador:** PIC16F887  
-**Alumnos:** Abraham Gamez Gonzalez 655549 | Omar Balcázar 652911
+**Alumnos:** Abraham Gamez Gonzalez 655549 | Omar Balcázar Pineda 652911
 
 ---
 
