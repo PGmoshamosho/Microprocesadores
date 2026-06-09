@@ -52,7 +52,13 @@ Se conectaron 4 LEDs al PORTD con resistencias de 330 Ω. El código configura `
 Figura 1. Simulación de Parpadeo 
 
 <img width="1600" height="893" alt="Leds_1" src="https://github.com/user-attachments/assets/cc7ed641-3302-4bd0-8aed-5c5be60b3f61" />
+
 Figura 2. Actividad de Parpadeo 
+
+<img width="800" height="447" alt="LedsParp" src="https://github.com/user-attachments/assets/0a72c97a-d178-4e95-8748-4048eb9046ae" />
+
+Video 1. Parpadeo
+
 
 ### P2 — LEDs individuales (Caminata)
 Se conectaron 6 LEDs al PORTD con resistencias de 330 Ω. El código ejecuta un bucle que enciende un LED a la vez de forma secuencial (`0b000001 → 0b000010 → 0b000100...` y regresa), creando el efecto de caminata con `delay_ms` entre cada estado.
@@ -63,6 +69,9 @@ Figura 3. Simulación de Caminata
 <img width="1600" height="902" alt="led2" src="https://github.com/user-attachments/assets/8d241dda-b045-4cc0-ad3f-bdadf39a7eed" />
 Figura 4. Actividad de Caminata
 
+<img width="800" height="560" alt="Caminata" src="https://github.com/user-attachments/assets/f7aa8f0d-ff60-418f-98e3-26409965901e" />
+
+Video 3. Caminata 
 
 ### P3 — LEDs individuales (Conteo binario)
 Mismo circuito que P2. El código incrementa una variable de 0 a 63 (`0b000000` a `0b111111`) asignándola directamente a PORTD, representando cada número en binario sobre los 6 LEDs.
@@ -73,6 +82,10 @@ Figura 5. Simulación de Contador
 <img width="1600" height="1017" alt="led3" src="https://github.com/user-attachments/assets/f7e51532-cab7-4c36-91be-8533e9f0d2f1" />
 Figura 6. Actividad de Contador
 
+
+<img width="800" height="537" alt="Contador" src="https://github.com/user-attachments/assets/e1e062b8-cc1b-4c19-b897-86d038fce7b1" />
+
+Video 5. Contador
 
 ---
 
@@ -90,19 +103,6 @@ Figura 6. Actividad de Contador
 Las tres prácticas con LEDs individuales permitieron comprender el manejo básico de los registros TRISD y PORTD, así como el uso de delays para generar efectos visuales. Las resistencias de 330 Ω resultaron adecuadas para los LEDs con VDD = 5 V, manteniéndose dentro de los límites de corriente del puerto.
 
 
-## Videos
-Parpadeo
-
-<img width="800" height="447" alt="LedsParp" src="https://github.com/user-attachments/assets/0a72c97a-d178-4e95-8748-4048eb9046ae" />
-
-Contador
-
-<img width="800" height="537" alt="Contador" src="https://github.com/user-attachments/assets/e1e062b8-cc1b-4c19-b897-86d038fce7b1" />
-
-
-Caminata
-
-<img width="800" height="560" alt="Caminata" src="https://github.com/user-attachments/assets/f7aa8f0d-ff60-418f-98e3-26409965901e" />
 
 ```
 
