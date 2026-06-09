@@ -58,7 +58,42 @@ Figura 2. Actividad de Parpadeo
 <img width="800" height="447" alt="LedsParp" src="https://github.com/user-attachments/assets/0a72c97a-d178-4e95-8748-4048eb9046ae" />
 
 Video 1. Parpadeo
+--------------------------------------------------------------------------------------------------------
+Codigo
+#include <xc.h>         // Biblioteca principal del compilador XC8
 
+//=============================================================================
+// CONFIGURACI N DE BITS DE CONFIGURACI N (FUSES)
+//=============================================================================
+
+// Selecci n de oscilador (usar XT si est s usando un cristal de 4 MHz)
+#pragma config FOSC = XT        // Oscillator Selection bits (XT oscillator)
+#pragma config WDTE = OFF       // Watchdog Timer Enable bit (WDT disabled)
+#pragma config PWRTE = OFF      // Power-up Timer Enable bit (PWRT disabled)
+#pragma config BOREN = ON       // Brown-out Reset Enable bit (enabled)
+#pragma config LVP = OFF        // Low-Voltage Programming Enable bit (disabled)
+#pragma config CPD = OFF        // Data EEPROM Memory Code Protection (disabled)
+#pragma config WRT = OFF        // Flash Program Memory Write Enable (disabled)
+#pragma config CP = OFF         // Flash Program Memory Code Protection (disabled)
+
+//=============================================================================
+// DEFINICIONES
+//=============================================================================
+
+#define _XTAL_FREQ 8000000      // Frecuencia del oscilador (para __delay_ms y __delay_us)
+void main(void) {
+    TRISD = 0B00000000;
+    PORTD = 0B00000000;
+    
+    while(1){
+        PORTD = 0xF;
+        __delay_ms(500);
+        PORTD = 0x0;
+        __delay_ms(500);
+    }
+}
+
+--------------------------------------------------------------------------------------------------------------
 
 ### P2 — LEDs individuales (Caminata)
 Se conectaron 6 LEDs al PORTD con resistencias de 330 Ω. El código ejecuta un bucle que enciende un LED a la vez de forma secuencial (`0b000001 → 0b000010 → 0b000100...` y regresa), creando el efecto de caminata con `delay_ms` entre cada estado.
