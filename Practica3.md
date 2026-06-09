@@ -58,7 +58,62 @@ Figura 12. Actividad de Conteo 0-9
 Video 6 Simulacion conteo 0-9
 
 
+--------------------------------------------------------------------------------------------------------
+## Codigo
+```c
+#include <xc.h>
 
+#pragma config FOSC = XT
+#pragma config WDTE = OFF
+#pragma config PWRTE = OFF
+#pragma config BOREN = ON
+#pragma config LVP = OFF
+#pragma config CPD = OFF
+#pragma config WRT = OFF
+#pragma config CP = OFF
+
+#define _XTAL_FREQ 8000000
+
+void main(void) {
+
+    TRISD = 0B00000000;
+    PORTD = 0B00000000;
+
+    while (1) {
+
+        PORTD = 0B00111111; // 0
+        __delay_ms(500);
+
+        PORTD = 0B00000110; // 1
+        __delay_ms(500);
+
+        PORTD = 0B01011011; // 2
+        __delay_ms(500);
+
+        PORTD = 0B01001111; // 3
+        __delay_ms(500);
+
+        PORTD = 0B01100110; // 4
+        __delay_ms(500);
+
+        PORTD = 0B01101101; // 5
+        __delay_ms(500);
+
+        PORTD = 0B01111101; // 6
+        __delay_ms(500);
+
+        PORTD = 0B00000111; // 7
+        __delay_ms(500);
+
+        PORTD = 0B01111111; // 8
+        __delay_ms(500);
+
+        PORTD = 0B01101111; // 9
+        __delay_ms(500);
+    }
+}
+```
+--------------------------------------------------------------------------------------------------------
 
 
 ### P7 — Display 7 segmentos (Conteo 0–F)
@@ -71,6 +126,81 @@ Figura 14. Actividad de Conteo 0-F
 
 <img width="1031" height="627" alt="display" src="https://github.com/user-attachments/assets/3196bdea-6fbb-4e7e-9e16-237cad29666e" />
 Video 7 Simulacion de conteo 0-F
+
+--------------------------------------------------------------------------------------------------------
+## Codigo
+```c
+#include <xc.h>
+
+#pragma config FOSC = XT
+#pragma config WDTE = OFF
+#pragma config PWRTE = OFF
+#pragma config BOREN = ON
+#pragma config LVP = OFF
+#pragma config CPD = OFF
+#pragma config WRT = OFF
+#pragma config CP = OFF
+
+#define _XTAL_FREQ 8000000
+
+void main(void) {
+
+    TRISD = 0B00000000;
+    PORTD = 0B00000000;
+
+    while (1) {
+
+        PORTD = 0B00111111; // 0
+        __delay_ms(500);
+
+        PORTD = 0B00000110; // 1
+        __delay_ms(500);
+
+        PORTD = 0B01011011; // 2
+        __delay_ms(500);
+
+        PORTD = 0B01001111; // 3
+        __delay_ms(500);
+
+        PORTD = 0B01100110; // 4
+        __delay_ms(500);
+
+        PORTD = 0B01101101; // 5
+        __delay_ms(500);
+
+        PORTD = 0B01111101; // 6
+        __delay_ms(500);
+
+        PORTD = 0B00000111; // 7
+        __delay_ms(500);
+
+        PORTD = 0B01111111; // 8
+        __delay_ms(500);
+
+        PORTD = 0B01101111; // 9
+        __delay_ms(500);
+
+        PORTD = 0B01110111; // A
+        __delay_ms(500);
+
+        PORTD = 0B01111100; // b
+        __delay_ms(500);
+
+        PORTD = 0B00111001; // C
+        __delay_ms(500);
+
+        PORTD = 0B01011110; // d
+        __delay_ms(500);
+
+        PORTD = 0B01111001; // E
+        __delay_ms(500);
+
+        PORTD = 0B01110001; // F
+        __delay_ms(500);
+    }
+}
+```
+--------------------------------------------------------------------------------------------------------
 
 ---
 
