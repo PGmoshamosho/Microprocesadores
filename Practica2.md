@@ -50,6 +50,11 @@ Figura 7. Simulación de “X”
 <img width="981" height="582" alt="imagen_2026-06-08_191920678" src="https://github.com/user-attachments/assets/5523eac5-292e-48ed-907a-da996a3be6ea" />
 Figura 8. Actividad de “X”
 
+
+<img width="981" height="582" alt="X" src="https://github.com/user-attachments/assets/f820b3f4-ba14-4bf3-91ff-233bc3eac812" />
+Video 7. Simulacion de "X"
+
+Video 8.
 ### P5 — Matriz 8x8 (Letras O, R, M, H)
 Mismo circuito que P4. El código almacena los bitmaps de las letras O, R, M y H en arreglos y alterna entre ellas con un retardo de aproximadamente 1 segundo, desplegando cada letra mediante el mismo esquema de multiplexado.
 <img width="1003" height="633" alt="Letras" src="https://github.com/user-attachments/assets/ad6fb1a3-227b-4d62-b68e-8ea8e6664bf5" />
@@ -58,6 +63,9 @@ Figura 9. Simulación de Letras
 <img width="981" height="585" alt="imagen_2026-06-08_192141759" src="https://github.com/user-attachments/assets/0b56e925-d891-41d9-aa48-0436d27fe3a0" />
 Figura 10. Actividad de Letras 
 
+<img width="981" height="585" alt="Letras" src="https://github.com/user-attachments/assets/593da62d-d989-4c98-82e5-8ba9dc6b5c00" />
+
+Video 9. Simulacion de Letras
 
 ## 4. Circuito Base
 
@@ -71,3 +79,9 @@ Figura 10. Actividad de Letras
 ## 5. Conclusiones
 
 El multiplexado de la matriz 8x8 fue la parte más desafiante, ya que requirió sincronizar correctamente filas y columnas a una velocidad suficiente para evitar parpadeo visible. El uso de arreglos para almacenar los bitmaps de cada letra resultó una solución clara y fácil de modificar para agregar más caracteres si se necesitara.
+
+
+
+
+
+Letras 
