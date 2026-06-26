@@ -45,11 +45,14 @@ Las prácticas de este reporte cubren el control de un servomotor mediante seña
 ### Actividad 1 — Barrido del servomotor (izquierda/derecha)
 Se generó la señal PWM necesaria para un servomotor estándar mediante pulsos directos con `__delay_us`: un pulso de 600 µs aproxima la posición izquierda (-90°) y uno de 2400 µs la posición derecha (+90°), repitiendo cada pulso varias veces con un periodo de 20 ms para mantener al servo en esa posición.
 
-<!-- ESPACIO PARA IMAGEN: Figura 1. Simulación de Actividad 1 -->
+<img width="844" height="453" alt="image" src="https://github.com/user-attachments/assets/0ee52a51-b19c-4e58-9cbe-90f84f42a4e3" />
 
-<!-- ESPACIO PARA IMAGEN: Figura 2. Actividad de Actividad 1 -->
+Figura 1
 
-<!-- ESPACIO PARA VIDEO: Video 1. Actividad 1 -->
+<img width="844" height="457" alt="image" src="https://github.com/user-attachments/assets/e3d17a0b-6c2c-4143-8647-209373a9d185" />
+
+Figura 2
+
 --------------------------------------------------------------------------------------------------------
 ## Codigo
 ```c
@@ -109,11 +112,12 @@ void main(void){
 ### Actividad 2 — Ángulo de giro controlado por potenciómetro
 Se utilizó la lectura promediada de un potenciómetro en AN0 para calcular el pulso correspondiente entre 500 µs y 2500 µs (rango completo del servo), generando la señal PWM mediante el Timer1 configurado como temporizador de precisión en microsegundos.
 
-<!-- ESPACIO PARA IMAGEN: Figura 3. Simulación de Actividad 2 -->
+<img width="1024" height="463" alt="image" src="https://github.com/user-attachments/assets/d8f10eae-4afb-47d4-876c-0a52e5d0658e" />
+Figura 3
 
-<!-- ESPACIO PARA IMAGEN: Figura 4. Actividad de Actividad 2 -->
+<img width="1024" height="552" alt="image" src="https://github.com/user-attachments/assets/aeb15737-244c-4948-a410-349a4ada5704" />
+Figura 4
 
-<!-- ESPACIO PARA VIDEO: Video 2. Actividad 2 -->
 --------------------------------------------------------------------------------------------------------
 ## Codigo
 ```c
