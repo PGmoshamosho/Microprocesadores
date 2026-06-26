@@ -57,7 +57,7 @@ Figura 2. Actividad de Parpadeo
 
 <img width="800" height="447" alt="LedsParp" src="https://github.com/user-attachments/assets/0a72c97a-d178-4e95-8748-4048eb9046ae" />
 
-Video 1. Parpadeo
+
 --------------------------------------------------------------------------------------------------------
 ## Codigo
 ```c
