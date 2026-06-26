@@ -45,7 +45,8 @@ La práctica de este reporte cubre la lectura del ADC de 10 bits del PIC16F887 s
 ### Actividad 1 — Vista intercambiable: Voltaje / Porcentaje / ADC
 Se conectó un potenciómetro al canal AN0 del PIC16F887. Con un botón en RB0 se alterna entre tres formas de mostrar la lectura en el LCD: voltaje (V), porcentaje (%) y valor crudo del ADC (0-1023).
 
-<img width="406" height="382" alt="image" src="https://github.com/user-attachments/assets/6f5035ea-a917-4449-a8be-7b84cb1e44cb" />
+<img width="979" height="572" alt="image" src="https://github.com/user-attachments/assets/aea9c475-e562-4f72-9128-0723dc0c6907" />
+
 Figura 1
 
 --------------------------------------------------------------------------------------------------------
