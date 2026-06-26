@@ -45,11 +45,14 @@ Las prácticas de este reporte cubren el manejo de entradas digitales: 3 botones
 ### Clase — 3 Botones controlando 3 LEDs (Pull-up interno)
 Se conectaron 3 botones al PORTB (RB0, RB1, RB2) configurados como entradas con resistencias de pull-up internas activadas, y 3 LEDs al PORTD (RD0, RD1, RD2). Al presionar cada botón se enciende el LED correspondiente.
 
-<!-- ESPACIO PARA IMAGEN: Figura 1. Simulación de Clase -->
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/e1a55a81-ab3e-4063-892d-dd70a9a32d64" />
 
-<!-- ESPACIO PARA IMAGEN: Figura 2. Actividad de Clase -->
+Figura 1
 
-<!-- ESPACIO PARA VIDEO: Video 1. Clase -->
+<img width="964" height="615" alt="image" src="https://github.com/user-attachments/assets/b73bd13a-194e-4392-b476-16a12fa29554" />
+
+Figura 2
+
 --------------------------------------------------------------------------------------------------------
 ## Codigo
 ```c
@@ -96,11 +99,13 @@ void main(void) {
 ### Actividad 1 — Contador 0-99 con dos displays de 7 segmentos
 Se implementó un contador de 0 a 99 usando dos displays de 7 segmentos multiplexados. Un botón suma una unidad, otro resta una unidad y un tercero reinicia el contador a cero.
 
-<!-- ESPACIO PARA IMAGEN: Figura 3. Simulación de Actividad 1 -->
+<img width="720" height="1280" alt="image" src="https://github.com/user-attachments/assets/1ef996d1-292c-4360-8024-e6ad44aa6937" />
 
-<!-- ESPACIO PARA IMAGEN: Figura 4. Actividad de Actividad 1 -->
+Figura 3
 
-<!-- ESPACIO PARA VIDEO: Video 2. Actividad 1 -->
+<img width="1113" height="600" alt="image" src="https://github.com/user-attachments/assets/4d26ffc8-c499-48f3-b33b-829fb33157ee" />
+Figura 4
+
 --------------------------------------------------------------------------------------------------------
 ## Codigo
 ```c
@@ -187,7 +192,6 @@ void main(void) {
 - VDD (pines 11, 32) → +5 V | VSS (pines 12, 31) → GND
 - R1 = 1 kΩ entre MCLR (pin 1) y VDD
 - Cristal 8 MHz en RA6 (pin 14) y RA7 (pin 13)
-- Configuration bits: oscilador XT, MCLRE habilitado, WDT deshabilitado
 
 ---
 
