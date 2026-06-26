@@ -45,11 +45,10 @@ Las prácticas de este reporte cubren el manejo del display LCD 16x2 en modo de 
 ### Clase — "Hello World!" en el LCD
 Se conectó un display LCD 16x2 en modo de 4 bits al PORTC del PIC16F887 (RS=RC2, EN=RC3, D4-D7=RC4-RC7) y se mostró el texto "HELLO WORLD!" en la primera línea, recorriendo las letras de la A a la P en la segunda línea.
 
-<!-- ESPACIO PARA IMAGEN: Figura 1. Simulación de Clase -->
+<img width="809" height="451" alt="image" src="https://github.com/user-attachments/assets/91c91de1-c868-40c7-94a5-e16df46ef90f" />
 
-<!-- ESPACIO PARA IMAGEN: Figura 2. Actividad de Clase -->
+Figura 1
 
-<!-- ESPACIO PARA VIDEO: Video 1. Clase -->
 --------------------------------------------------------------------------------------------------------
 ## Codigo
 ```c
@@ -177,11 +176,18 @@ void LCD_Out ( char a );
 ### Actividad 1 — Caracteres personalizados (copa, estrella, corazón)
 Se crearon tres caracteres personalizados en la CGRAM del LCD (copa, estrella y corazón) y se utilizó un botón en RB0 para alternar entre los tres mensajes, cada uno mostrando el carácter correspondiente.
 
-<!-- ESPACIO PARA IMAGEN: Figura 3. Simulación de Actividad 1 -->
+<img width="776" height="416" alt="image" src="https://github.com/user-attachments/assets/222baaac-74d5-43eb-8553-446fc32da025" />
 
-<!-- ESPACIO PARA IMAGEN: Figura 4. Actividad de Actividad 1 -->
+Figura 2
 
-<!-- ESPACIO PARA VIDEO: Video 2. Actividad 1 -->
+<img width="748" height="386" alt="image" src="https://github.com/user-attachments/assets/13a34416-1b4c-4589-8762-538624c237f2" />
+
+Figura 3
+
+<img width="637" height="303" alt="image" src="https://github.com/user-attachments/assets/07a8956d-de11-4ce9-b68a-583a93303930" />
+
+Figura 4
+
 --------------------------------------------------------------------------------------------------------
 ## Codigo
 ```c
