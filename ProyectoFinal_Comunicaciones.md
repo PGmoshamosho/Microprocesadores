@@ -55,13 +55,20 @@ Para esta práctica se seleccionó como protocolo de comunicación el **intercam
 
 El jugador (Pateador) mueve su personaje en el LCD usando un joystick: el eje Y selecciona la fila (arriba/abajo) y el eje X selecciona la posición del balón respecto al jugador. Al presionar el botón del joystick (RB0), se envía la fila del disparo al Portero (RB2) y se anima el balón recorriendo las columnas del LCD hasta llegar al borde, momento en el que se activa la señal de tiro (RB3). El Portero, mientras tanto, mueve su personaje verticalmente con su propio joystick (AN0) tratando de coincidir con la fila del disparo; al recibir la señal de tiro, compara su posición con la fila recibida y envía la señal correspondiente de atajada (RB4) o gol (RB5) de regreso al Pateador, mostrando el resultado en ambos displays LCD.
 
-<!-- ESPACIO PARA IMAGEN: Figura 1. Simulación del Proyecto (Pateador) -->
+<img width="500" height="618" alt="image" src="https://github.com/user-attachments/assets/b101c366-0a22-471f-ab00-919537d397bc" />
+Figura 1
 
-<!-- ESPACIO PARA IMAGEN: Figura 2. Simulación del Proyecto (Portero) -->
+<img width="1414" height="584" alt="image" src="https://github.com/user-attachments/assets/3637c87d-73e6-43b3-a9bc-9567ac0b5049" />
 
-<!-- ESPACIO PARA IMAGEN: Figura 3. Actividad del Proyecto -->
+Figura 2
 
-<!-- ESPACIO PARA VIDEO: Video 1. Proyecto Final -->
+
+
+<img width="500" height="266" alt="image" src="https://github.com/user-attachments/assets/e2b4c5a2-3ec9-4f0c-b5d6-28bc3170dc63" />
+
+
+Figura 3
+
 --------------------------------------------------------------------------------------------------------
 ## Codigo — PIC del Pateador ("B")
 ```c
