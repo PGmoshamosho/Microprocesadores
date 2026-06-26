@@ -45,11 +45,7 @@ Las prácticas de este reporte cubren el manejo de un teclado matricial 4x4 cone
 ### Actividad 1 — Mostrar en el LCD la tecla presionada
 Se conectó un teclado matricial 4x4 al PORTD (filas RD0-RD3 como salida, columnas RD4-RD7 como entrada con verificación por doble lectura para anti-rebote) y se mostró en el LCD el carácter correspondiente a la tecla presionada.
 
-<!-- ESPACIO PARA IMAGEN: Figura 1. Simulación de Actividad 1 -->
 
-<!-- ESPACIO PARA IMAGEN: Figura 2. Actividad de Actividad 1 -->
-
-<!-- ESPACIO PARA VIDEO: Video 1. Actividad 1 -->
 --------------------------------------------------------------------------------------------------------
 ## Codigo
 ```c
@@ -168,11 +164,6 @@ void main(void){
 ### Actividad 2 — Calculadora básica (suma, resta, multiplicación, división)
 Se implementó una calculadora básica: se ingresa el primer número, se selecciona la operación con `A` (suma), `B` (resta), `C` (multiplicación) o `D` (división), se ingresa el segundo número y con `#` se muestra el resultado en el LCD. La tecla `*` reinicia la operación en cualquier momento.
 
-<!-- ESPACIO PARA IMAGEN: Figura 3. Simulación de Actividad 2 -->
-
-<!-- ESPACIO PARA IMAGEN: Figura 4. Actividad de Actividad 2 -->
-
-<!-- ESPACIO PARA VIDEO: Video 2. Actividad 2 -->
 --------------------------------------------------------------------------------------------------------
 ## Codigo
 ```c
