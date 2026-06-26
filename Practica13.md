@@ -45,11 +45,12 @@ Las prácticas de este reporte cubren el control de un motor DC: primero su velo
 ### Actividad 1 — Velocidad de motor con driver basado en transistor
 Se controló la velocidad de giro de un motor DC mediante un driver basado en un transistor, usando PWM por hardware (CCP1, RC2) cuyo ciclo de trabajo se ajusta con la lectura de un potenciómetro en AN0.
 
-<!-- ESPACIO PARA IMAGEN: Figura 1. Simulación de Actividad 1 -->
+<img width="442" height="431" alt="image" src="https://github.com/user-attachments/assets/d2d2e126-0b1d-4109-8e47-1e99932ce444" />
+Figura 1 
 
-<!-- ESPACIO PARA IMAGEN: Figura 2. Actividad de Actividad 1 -->
+<img width="872" height="543" alt="image" src="https://github.com/user-attachments/assets/2c08673f-748a-436e-9448-6596a9857358" />
+Figura 2
 
-<!-- ESPACIO PARA VIDEO: Video 1. Actividad 1 -->
 --------------------------------------------------------------------------------------------------------
 ## Codigo
 ```c
@@ -124,11 +125,13 @@ void main(void){
 ### Actividad 2 — Velocidad y sentido de giro con puente H
 Se utilizó un puente H para controlar tanto la dirección de giro del motor (RC0/RC1 según el valor de un segundo potenciómetro en AN1) como su velocidad (PWM en RC2 controlado por el potenciómetro en AN0). Una zona intermedia en la lectura del segundo potenciómetro (entre 400 y 600) detiene el motor.
 
-<!-- ESPACIO PARA IMAGEN: Figura 3. Simulación de Actividad 2 -->
+<img width="1081" height="698" alt="image" src="https://github.com/user-attachments/assets/8b856515-d259-4fcb-bd3e-f21cfd1d0832" />
+Figura 3
 
-<!-- ESPACIO PARA IMAGEN: Figura 4. Actividad de Actividad 2 -->
+<img width="1081" height="698" alt="image" src="https://github.com/user-attachments/assets/b5c7ed2f-c4a4-47c1-a782-e2a488573440" />
+FIgura 4
 
-<!-- ESPACIO PARA VIDEO: Video 2. Actividad 2 -->
+
 --------------------------------------------------------------------------------------------------------
 ## Codigo
 ```c
