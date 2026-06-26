@@ -46,6 +46,9 @@ Las prácticas de este reporte cubren la lectura simultánea de dos potenciómet
 ### Actividad 1 — Voltaje de dos potenciómetros en el LCD
 Se conectaron dos potenciómetros a los canales AN0 y AN1, mostrando ambos valores de voltaje simultáneamente, uno en cada línea del display LCD.
 
+<img width="992" height="597" alt="image" src="https://github.com/user-attachments/assets/103c2f2c-eb86-4f83-8016-446153bafc79" />
+Figura 1
+
 
 --------------------------------------------------------------------------------------------------------
 ## Codigo
@@ -147,7 +150,11 @@ Se agregaron dos botones independientes (RB0 y RB1), uno para cambiar la vista (
 
 <img width="403" height="378" alt="image" src="https://github.com/user-attachments/assets/4ade92fe-67e9-4219-a5fe-3c45740e4856" />
 
-Figura 1
+Figura 2
+
+<img width="975" height="687" alt="image" src="https://github.com/user-attachments/assets/51066973-0544-46a4-89f8-9dbeffe16d48" />
+
+Figura 3
 
 --------------------------------------------------------------------------------------------------------
 ## Codigo
