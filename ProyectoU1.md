@@ -58,7 +58,9 @@ Figura 2
 
 Figura 3
 
+<img width="975" height="717" alt="image" src="https://github.com/user-attachments/assets/df03f324-8a18-4a54-924d-bb21d3032354" />
 
+Figura 4
 
 
 --------------------------------------------------------------------------------------------------------
