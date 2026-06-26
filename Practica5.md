@@ -45,11 +45,7 @@ Las prácticas de este reporte cubren multiplexación de displays de 7 segmentos
 ### Clase A — Patrón de dígitos con interrupción externa
 Se mostró una secuencia de dígitos de 7 segmentos en PORTD, controlada por interrupción externa (INT en RB0) para activar el parpadeo de un LED en RC0.
 
-<!-- ESPACIO PARA IMAGEN: Figura 1. Simulación de Clase A -->
 
-<!-- ESPACIO PARA IMAGEN: Figura 2. Actividad de Clase A -->
-
-<!-- ESPACIO PARA VIDEO: Video 1. Clase A -->
 --------------------------------------------------------------------------------------------------------
 ## Codigo
 ```c
@@ -136,11 +132,6 @@ void __interrupt() ISR(void){
 ### Clase B — Contador con interrupción externa y parpadeo de LED
 Se realizó un contador de 0 a 99 multiplexado en dos displays de 7 segmentos (PORTC para segmentos, PORTD para selección de display), donde una interrupción externa detiene el conteo y hace parpadear un LED antes de continuar.
 
-<!-- ESPACIO PARA IMAGEN: Figura 3. Simulación de Clase B -->
-
-<!-- ESPACIO PARA IMAGEN: Figura 4. Actividad de Clase B -->
-
-<!-- ESPACIO PARA VIDEO: Video 2. Clase B -->
 --------------------------------------------------------------------------------------------------------
 ## Codigo
 ```c
@@ -270,11 +261,15 @@ void __interrupt() ISR(void){
 ### Clase C — Contador 0-9999 con 4 displays multiplexados
 Se realizó un contador de 0 a 9999 utilizando 4 displays de 7 segmentos multiplexados, activando un display a la vez en PORTC y colocando el patrón correspondiente en PORTD.
 
-<!-- ESPACIO PARA IMAGEN: Figura 5. Simulación de Clase C -->
+<img width="720" height="1280" alt="image" src="https://github.com/user-attachments/assets/d3714925-327b-432b-95d1-d3eca930e064" />
 
-<!-- ESPACIO PARA IMAGEN: Figura 6. Actividad de Clase C -->
+Figura 1
 
-<!-- ESPACIO PARA VIDEO: Video 3. Clase C -->
+<img width="720" height="1280" alt="image" src="https://github.com/user-attachments/assets/201866ed-31f7-42e3-ad19-7a2b7d5cf53f" />
+
+Figura 2
+
+
 --------------------------------------------------------------------------------------------------------
 ## Codigo
 ```c
