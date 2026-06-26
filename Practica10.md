@@ -45,11 +45,13 @@ Las prácticas de este reporte cubren el uso del Timer1 de 16 bits para medir el
 ### Actividad 1 — Tiempo de ejecución con Timer1
 Se utilizó el Timer1 (registro de 16 bits, `TMR1H`/`TMR1L`) con interrupción para contar el tiempo transcurrido desde que el PIC empezó a ejecutarse, mostrando el resultado en formato `mm:ss` en el LCD.
 
-<!-- ESPACIO PARA IMAGEN: Figura 1. Simulación de Actividad 1 -->
+<img width="997" height="546" alt="image" src="https://github.com/user-attachments/assets/81a92a49-10ac-45ab-aaac-210df56f1440" />
+Figura 1
 
-<!-- ESPACIO PARA IMAGEN: Figura 2. Actividad de Actividad 1 -->
+<img width="997" height="546" alt="image" src="https://github.com/user-attachments/assets/439e7722-1ab9-41da-af60-08186db5f5e9" />
+Figura 2
 
-<!-- ESPACIO PARA VIDEO: Video 1. Actividad 1 -->
+
 --------------------------------------------------------------------------------------------------------
 ## Codigo
 ```c
@@ -128,11 +130,12 @@ void main(void){
 ### Actividad 2 — Voltaje de potenciómetro + tiempo con Timer1
 Se combinó el Timer1 (medición de tiempo) con la lectura del ADC de un potenciómetro en AN0, mostrando el voltaje en la primera línea del LCD y el tiempo de ejecución al final de la segunda línea.
 
-<!-- ESPACIO PARA IMAGEN: Figura 3. Simulación de Actividad 2 -->
+<img width="1017" height="599" alt="image" src="https://github.com/user-attachments/assets/7f90ea3b-34c6-4137-9579-f2640cc49fe0" />
+Figura 3
 
-<!-- ESPACIO PARA IMAGEN: Figura 4. Actividad de Actividad 2 -->
+<img width="1017" height="600" alt="image" src="https://github.com/user-attachments/assets/0213575e-3245-40de-b3f1-69ddf6d1e46e" />
+Figura 4
 
-<!-- ESPACIO PARA VIDEO: Video 2. Actividad 2 -->
 --------------------------------------------------------------------------------------------------------
 ## Codigo
 ```c
