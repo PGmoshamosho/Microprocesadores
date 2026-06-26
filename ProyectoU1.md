@@ -46,11 +46,21 @@ Este proyecto integra varios conceptos vistos a lo largo del curso en un solo pr
 
 Se utilizó un joystick analógico conectado a los canales AN0 (eje X) y AN1 (eje Y) del PIC16F887. Moviendo el joystick hacia la derecha o izquierda, el eje X desplaza la columna del cursor en el LCD (0-15); moviendo el joystick hacia arriba o abajo, el eje Y selecciona entre la fila 0 o la fila 1 del display. Un botón en RB0 alterna entre dos caracteres personalizados (copa y estrella) creados en la CGRAM del LCD, funcionando como una especie de "personaje" que cambia de forma con cada pulsación.
 
-<!-- ESPACIO PARA IMAGEN: Figura 1. Simulación del Proyecto -->
+<img width="497" height="657" alt="image" src="https://github.com/user-attachments/assets/8fb2449a-dc02-4975-bd55-9e3672285c6e" />
 
-<!-- ESPACIO PARA IMAGEN: Figura 2. Actividad del Proyecto -->
+Figura 1
 
-<!-- ESPACIO PARA VIDEO: Video 1. Proyecto -->
+<img width="664" height="373" alt="image" src="https://github.com/user-attachments/assets/cc61ad4b-1986-4aa6-bd33-1173faa00696" />
+
+Figura 2
+
+<img width="634" height="325" alt="image" src="https://github.com/user-attachments/assets/733fbe25-6b16-471f-b2c2-3739cc066ec1" />
+
+Figura 3
+
+
+
+
 --------------------------------------------------------------------------------------------------------
 ## Codigo
 ```c
