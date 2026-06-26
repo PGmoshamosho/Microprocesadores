@@ -45,6 +45,10 @@ Las prácticas de este reporte cubren multiplexación de displays de 7 segmentos
 ### Clase A — Patrón de dígitos con interrupción externa
 Se mostró una secuencia de dígitos de 7 segmentos en PORTD, controlada por interrupción externa (INT en RB0) para activar el parpadeo de un LED en RC0.
 
+<img width="917" height="515" alt="image" src="https://github.com/user-attachments/assets/15e73102-bc70-402b-bbc0-6dcb506386c0" />
+Figura 1
+
+
 
 --------------------------------------------------------------------------------------------------------
 ## Codigo
@@ -263,12 +267,14 @@ Se realizó un contador de 0 a 9999 utilizando 4 displays de 7 segmentos multipl
 
 <img width="720" height="1280" alt="image" src="https://github.com/user-attachments/assets/d3714925-327b-432b-95d1-d3eca930e064" />
 
-Figura 1
+Figura 2
 
 <img width="720" height="1280" alt="image" src="https://github.com/user-attachments/assets/201866ed-31f7-42e3-ad19-7a2b7d5cf53f" />
 
-Figura 2
+Figura 3
 
+<img width="977" height="606" alt="image" src="https://github.com/user-attachments/assets/4548c15b-46c8-42ba-9840-08d38f3547b2" />
+Figura 4
 
 --------------------------------------------------------------------------------------------------------
 ## Codigo
