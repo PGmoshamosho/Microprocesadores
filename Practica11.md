@@ -46,11 +46,11 @@ Las prácticas de este reporte cubren el control de intensidad de LEDs mediante 
 ### Actividad 1 — Intensidad de LED con potenciómetro (PWM por hardware)
 Se utilizó el módulo CCP1 del PIC16F887 en modo PWM para controlar el brillo de un LED conectado a RC2. La lectura de un potenciómetro en AN0 define el ciclo de trabajo (duty cycle) mediante el Timer2 como base de tiempo.
 
-<!-- ESPACIO PARA IMAGEN: Figura 1. Simulación de Actividad 1 -->
+<img width="868" height="460" alt="image" src="https://github.com/user-attachments/assets/d50daad3-d385-4620-b585-35d633e208d4" />
+Figura 1 
 
-<!-- ESPACIO PARA IMAGEN: Figura 2. Actividad de Actividad 1 -->
 
-<!-- ESPACIO PARA VIDEO: Video 1. Actividad 1 -->
+
 --------------------------------------------------------------------------------------------------------
 ## Codigo
 ```c
@@ -120,11 +120,13 @@ void main(void){
 ### Actividad 2 — Intensidad de 2 LEDs (PWM hardware + software)
 Se controló un LED con PWM por hardware (CCP1, RC2) usando un potenciómetro en AN0, y un segundo LED con PWM generado por software mediante el Timer1: una interrupción periódica cuenta ciclos de 0 a 99 y enciende/apaga el LED en RD0 según si el contador es menor al valor de duty calculado a partir de un potenciómetro en AN1.
 
-<!-- ESPACIO PARA IMAGEN: Figura 3. Simulación de Actividad 2 -->
+<img width="363" height="257" alt="image" src="https://github.com/user-attachments/assets/87dc2806-82af-4f61-a6a1-6f6dccfab478" />
+Figura 2 
 
-<!-- ESPACIO PARA IMAGEN: Figura 4. Actividad de Actividad 2 -->
+<img width="890" height="645" alt="image" src="https://github.com/user-attachments/assets/3099edea-2093-457f-9047-c06fa7db587c" />
+Figura 3
 
-<!-- ESPACIO PARA VIDEO: Video 2. Actividad 2 -->
+
 --------------------------------------------------------------------------------------------------------
 ## Codigo
 ```c
