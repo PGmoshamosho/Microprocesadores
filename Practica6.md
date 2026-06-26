@@ -49,6 +49,11 @@ Se conectó un display LCD 16x2 en modo de 4 bits al PORTC del PIC16F887 (RS=RC2
 
 Figura 1
 
+
+<img width="962" height="540" alt="image" src="https://github.com/user-attachments/assets/bfd1a6e9-a708-4ac2-b41b-a58ae01d5f54" />
+
+Figura 2
+
 --------------------------------------------------------------------------------------------------------
 ## Codigo
 ```c
@@ -178,15 +183,19 @@ Se crearon tres caracteres personalizados en la CGRAM del LCD (copa, estrella y 
 
 <img width="776" height="416" alt="image" src="https://github.com/user-attachments/assets/222baaac-74d5-43eb-8553-446fc32da025" />
 
-Figura 2
+Figura 3
 
 <img width="748" height="386" alt="image" src="https://github.com/user-attachments/assets/13a34416-1b4c-4589-8762-538624c237f2" />
 
-Figura 3
+Figura 4
 
 <img width="637" height="303" alt="image" src="https://github.com/user-attachments/assets/07a8956d-de11-4ce9-b68a-583a93303930" />
 
-Figura 4
+Figura 5
+
+<img width="1008" height="578" alt="image" src="https://github.com/user-attachments/assets/c7a001f3-f4b9-4a29-9830-b148c594939c" />
+
+Figura 6
 
 --------------------------------------------------------------------------------------------------------
 ## Codigo
